@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "XRCloud 3rd App API 문서",
+    "description": "The title in the navbar"
+  },
+  "item.label.Introduce": {
+    "message": "소개",
+    "description": "Navbar item with label Introduce"
+  },
+  "item.label.API": {
+    "message": "API",
+    "description": "Navbar item with label API"
+  },
+  "item.label.GitHub": {
+    "message": "Github",
+    "description": "Navbar item with label GitHub"
+  }
+}

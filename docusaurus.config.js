@@ -56,6 +56,16 @@ const config = {
             label: 'API',
           },
           {
+            type: 'localeDropdown',
+            position: 'right',
+            dropdownItemsAfter: [
+              {
+                to: 'https://github.com/belivvr/xrcloud-3rd-app-user-api-doc/help-us-translate',
+                label: 'Help us translate',
+              },
+            ],
+          },
+          {
             href: 'https://github.com/belivvr',
             label: 'GitHub',
             position: 'right',
@@ -70,7 +80,7 @@ const config = {
             items: [
               {
                 label: 'Introduce',
-                to: '/docs/intro',
+                to: '/docs/introduce',
               },
               {
                 label: 'API',
@@ -99,6 +109,23 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'ko'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+      },
+      ko: {
+        label: '한국어',
+        direction: 'ltr',
+        htmlLang: 'ko-KR',
+      },
+    },
+  },
 };
 
 module.exports = config;
