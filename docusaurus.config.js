@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'XRCloud 3rd App API Document',
   tagline: 'Make your custom Metaverse easily!',
-  url: 'http://developers.belivvr.com',
-  baseUrl: '/',
+  url: 'https://belivvr.github.io',
+  baseUrl: '/xrcloud-3rd-app-user-api-doc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
