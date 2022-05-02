@@ -4,8 +4,6 @@ sidebar_position: 1
 
 # Authorization
 
-## Authorization token 발급
-
 ### API Address
 
 [POST] `https://3rd-api.xrcloud.belivvr.com/v1/auth/login`
@@ -57,8 +55,6 @@ Content-Type: application/json
 ```
 
 ---
-
-## Authorization token 재발급
 
 ### API Address
 

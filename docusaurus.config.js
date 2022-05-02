@@ -51,7 +51,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'api',
+            docId: 'api/authorization',
             position: 'left',
             label: 'API',
           },
@@ -84,7 +84,7 @@ const config = {
               },
               {
                 label: 'API',
-                to: '/docs/api',
+                to: '/docs/api/authorization',
               },
             ],
           },

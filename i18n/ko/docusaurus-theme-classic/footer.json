@@ -13,7 +13,7 @@
   },
   "link.item.label.API": {
     "message": "API",
-    "description": "The label of footer link with label=API linking to /docs/api"
+    "description": "The label of footer link with label=API linking to /docs/api/authorization"
   },
   "link.item.label.Blog": {
     "message": "Blog",
