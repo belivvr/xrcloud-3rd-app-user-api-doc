@@ -3,6 +3,9 @@ import clsx from 'clsx';
 import Translate from '@docusaurus/Translate';
 
 import styles from './styles.module.css';
+import Svg1 from '@site/static/img/contents1.svg';
+import Svg2 from '@site/static/img/contents2.svg';
+import Svg3 from '@site/static/img/contents3.svg';
 
 export default function HomepageFeatures(): JSX.Element {
   return (
@@ -11,7 +14,7 @@ export default function HomepageFeatures(): JSX.Element {
         <div className="row">
           <div className={clsx('col col--4')}>
             <div className="text--center">
-              <img className={styles.featureSvg} src="" alt="" />
+              <Svg1 />
             </div>
             <div className="text--center padding-horiz--md">
               <h3>
@@ -25,7 +28,7 @@ export default function HomepageFeatures(): JSX.Element {
 
           <div className={clsx('col col--4')}>
             <div className="text--center">
-              <img className={styles.featureSvg} src="" alt="" />
+              <Svg2 />
             </div>
             <div className="text--center padding-horiz--md">
               <h3>
@@ -39,7 +42,7 @@ export default function HomepageFeatures(): JSX.Element {
 
           <div className={clsx('col col--4')}>
             <div className="text--center">
-              <img className={styles.featureSvg} src="" alt="" />
+              <Svg3 />
             </div>
             <div className="text--center padding-horiz--md">
               <h3>
