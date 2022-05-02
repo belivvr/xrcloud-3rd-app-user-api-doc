@@ -60,7 +60,7 @@ const config = {
             position: 'right',
             dropdownItemsAfter: [
               {
-                to: 'https://github.com/belivvr/xrcloud-3rd-app-user-api-doc/help-us-translate',
+                to: 'https://github.com/belivvr/xrcloud-3rd-app-user-api-doc',
                 label: 'Help us translate',
               },
             ],
