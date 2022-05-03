@@ -2,7 +2,9 @@
 title: Price
 sidebar_position: 2
 ---
+
 ## XRCLOUD, for who are use it?
+
 - if you wants run WebXR based Metaverse service.
 - if you wants cost-effective and running Metaverse.
 - if you wants other service and feature extend using Web-API
