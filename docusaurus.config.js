@@ -45,7 +45,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'introduce',
+            docId: 'introduce/xrcloud-features',
             position: 'left',
             label: 'Introduce',
           },
@@ -80,7 +80,7 @@ const config = {
             items: [
               {
                 label: 'Introduce',
-                to: '/docs/introduce',
+                to: '/docs/introduce/xrcloud-features',
               },
               {
                 label: 'API',
