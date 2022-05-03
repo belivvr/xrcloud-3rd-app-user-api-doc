@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'XRCloud 3rd App API Document',
+  title: 'XRCloud',
   tagline: 'Make your custom Metaverse easily!',
   url: 'https://belivvr.github.io',
   baseUrl: '/xrcloud-3rd-app-user-api-doc/',
@@ -37,9 +37,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'XRCloud 3rd App API Document',
+        title: 'XRCloud Doc',
         logo: {
-          alt: 'XRCloud 3rd App API Document Logo',
+          alt: 'XRCloud Document Logo',
           src: 'img/favicon.ico',
         },
         items: [
