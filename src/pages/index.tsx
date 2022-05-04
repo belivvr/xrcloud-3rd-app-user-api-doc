@@ -33,6 +33,25 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <a
+          style={{
+            display: 'block',
+            width: '300px',
+            margin: '0 auto 60px',
+            padding: '15px 30px',
+            textAlign: 'center',
+            fontFamily: 'var(--ifm-heading-font-family)',
+            fontSize: '1.2rem',
+            color: 'var(--ifm-font-color-base-inverse)',
+            backgroundColor: 'var(--ifm-color-primary)',
+            border: 'none', 
+            borderRadius: '10px', 
+          }}
+          href="https://demo.xrcloud.belivvr.com/trial/XRCI-S6yhbKLQwcja2cmTQYKI"
+          target="_blank"
+        >
+          <Translate id="site.experience-metaverse">Experience Metaverse</Translate>
+        </a>
       </main>
     </Layout>
   );
