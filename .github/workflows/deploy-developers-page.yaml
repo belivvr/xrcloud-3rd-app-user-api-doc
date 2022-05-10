@@ -1,0 +1,33 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-developers-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Install and Build
+        uses: pnpm/action-setup@v2.1.0
+        with:
+          version: 6.0.2
+      - run: pnpm i
+      - run: pnpm run prepare-developers-page
+      - run: pnpm build
+        env:
+          CI: true
+          DEPLOY_TARGET: developers-pages
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: developers-pages
+          folder: build
+          clean: true

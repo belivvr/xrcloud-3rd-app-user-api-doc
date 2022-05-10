@@ -12,7 +12,8 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "prepare-developers-page": "sed -i \"s/\\/xrcloud-3rd-app-user-api-doc\\/\/\\/docs\\/xrcloud\\//g\" docusaurus.config.js"
   },
   "dependencies": {
     "@algolia/client-search": "^4.9.1",
