@@ -79,3 +79,40 @@ Content-Type: application/json
   "updatedAt": "2022-04-30T07:28:06.574Z"
 }
 ```
+
+### API Address
+
+[POST] `https://3rd-api.xrcloud.belivvr.com/v1/apps/{appId}/resources/scenes`
+
+### Description
+
+Get hubs html by auto generated from `scene`.
+
+### Headers
+
+```
+Authorization: Bearer refresh_token
+Content-Type: application/json
+```
+
+### Body
+
+```json
+{
+  "nickname": "user nickname",
+  "avatarId": "user avatarId"
+}
+```
+
+### Response
+
+```html
+Http Status: 200 OK
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html>
+...
+...
+...
+```
