@@ -26,6 +26,9 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://github.com/belivvr/xrcloud-3rd-app-user-api-doc/tree/main/docs/',
         },
+        blog: {
+          showReadingTime: true,
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -60,6 +63,11 @@ const config = {
             label: 'API',
           },
           {
+            to: '/blog',
+            label: 'Patch Note',
+            position: 'left'
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
             dropdownItemsAfter: [
@@ -90,6 +98,10 @@ const config = {
                 label: 'API',
                 to: '/docs/api/authorization',
               },
+              {
+                label: 'Patch Note',
+                to: '/blog'
+              }
             ],
           },
           {

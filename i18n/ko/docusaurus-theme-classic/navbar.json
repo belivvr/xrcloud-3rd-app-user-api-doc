@@ -1,8 +1,4 @@
 {
-  "title": {
-    "message": "XRCloud Doc",
-    "description": "The title in the navbar"
-  },
   "item.label.Introduce": {
     "message": "소개",
     "description": "Navbar item with label Introduce"
