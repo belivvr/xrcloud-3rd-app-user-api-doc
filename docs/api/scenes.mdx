@@ -1,0 +1,90 @@
+---
+sidebar_position: 2
+title: Scenes
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+import Response204 from './common/Response204.mdx';
+import Response401 from './common/Response401.mdx';
+
+import GetScenesRequest from './scenes/GetScenesRequest.mdx';
+import GetScenesResponse200 from './scenes/GetScenesResponse200.mdx';
+
+import GetSceneRequest from './scenes/GetSceneRequest.mdx';
+import GetSceneResponse200 from './scenes/GetSceneResponse200.mdx';
+
+import CopySceneResponse from './scenes/CopySceneResponse.mdx';
+import CopySceneResponse400 from './scenes/CopySceneResponse400.mdx';
+
+<Tabs>
+  <TabItem value="getScenes" label="Get List of Scenes">
+
+:::note Description
+
+Get list of Scenes information
+
+:::
+
+:::info URL
+
+```
+[GET] https://hubs.xrcloud.belivvr.com/v1/scenes?page=1&size=10
+```
+
+:::
+
+<GetScenesRequest />
+<GetScenesResponse200 />
+<Response204 />
+<Response401 />
+
+  </TabItem>
+
+  <TabItem value="getScene" label="Get a Scene">
+
+:::note Description
+
+Get a Scene information by `sceneSid`
+
+:::
+
+:::info URL
+
+```
+[GET] https://hubs.xrcloud.belivvr.com/v1/scenes/:sceneSid
+```
+
+:::
+
+<GetSceneRequest />
+<GetSceneResponse200 />
+<Response204 />
+<Response401 />
+
+  </TabItem>
+
+  <TabItem value="copyScene" label="Copy Scene by public Scene sid">
+
+:::note Description
+
+Copy public Scene by `sceneSid`
+
+:::
+
+:::info URL
+
+```
+[POST] https://hubs.xrcloud.belivvr.com/v1/scenes/:sceneSid
+```
+
+:::
+
+<GetSceneRequest />
+<CopySceneResponse />
+<CopySceneResponse400 />
+<Response401 />
+
+  </TabItem>
+</Tabs>
