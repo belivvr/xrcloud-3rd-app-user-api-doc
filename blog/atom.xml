@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://belivvr.github.io/xrcloud-3rd-app-user-api-doc/blog</id>
+    <title>XRCloud Blog</title>
+    <updated>2022-05-25T01:39:59.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://belivvr.github.io/xrcloud-3rd-app-user-api-doc/blog"/>
+    <subtitle>XRCloud Blog</subtitle>
+    <icon>https://belivvr.github.io/xrcloud-3rd-app-user-api-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v1.0.0-beta]]></title>
+        <id>v1.0.0-beta</id>
+        <link href="https://belivvr.github.io/xrcloud-3rd-app-user-api-doc/blog/v1.0.0-beta"/>
+        <updated>2022-05-25T01:39:59.000Z</updated>
+        <summary type="html"><![CDATA[v1.0.0-beta]]></summary>
+        <content type="html"><![CDATA[<p>v1.0.0-beta</p>]]></content>
+        <author>
+            <name>Juunini</name>
+            <uri>https://github.com/juunini</uri>
+        </author>
+        <category label="patch" term="patch"/>
+    </entry>
+</feed>
